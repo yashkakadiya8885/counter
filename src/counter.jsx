@@ -9,6 +9,7 @@ const Counter =()=>{
     },[count2])
     return(
         <div>
+            <h1>counter</h1>
             <h1>count:{count}</h1>
             <h1>count2:{count2}</h1>
             <button onClick={()=> setcount2(count2+1)}>Add</button>
